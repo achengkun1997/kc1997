@@ -1,0 +1,35 @@
+---
+title: "Rpubs"
+output: html_document
+---
+# level a
+hello this is my markdown
+```{r}
+plot(st_geometry(LondonWards))
+```
+
+```
+```{r}
+plot(st_geometry(Londonwards))
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
